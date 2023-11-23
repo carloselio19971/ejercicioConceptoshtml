@@ -1,0 +1,58 @@
+# EJERCICIO
+1. a)Etiqueta 
+   Es un elemento dentro de la estructura html.
+   Existen 3 Tipo de Etiquetas 
+   a.1 Etiquetas Apertura y Cierre
+       Son etiquetas que obligatoriamente un inicio y un cierre 
+       <h1>Titulo</h1>
+       <h2>Subtitulo</h2>
+       <p>Parrafo</p>
+   a.2 Etiquetas Self Closing
+       Son etiqueta que no necesitan ser cerradas.
+       <img/>
+       <imput/>
+       <meta />
+   a.3 Etiquetas Inline
+       Son etiquetas que ocupan el 100% del todo espacio horizontal de la pagina web
+       Así el la etiqueta ocupe menos espacio, igual ocupa toda la pantalla, si se inserta un elemento posterior este ira en la siguiente fila.
+       <h1> Titulo </h1>
+       <h2> Subtitulo </h2>
+       <p>Un parrafo<p>
+    a.4 Bloque 
+        Son etiquetas que ocupan solo el espacio que se necesita , en cada se cree un elemento posterior se agregara al costado
+        <span>Hola Mundo</span>
+        <span>Hola Mundo 2</span>
+    b) Atributo 
+       Hace referencia a una propiedad de un etiquetas 
+       Ejemplo  tienen la siguiente estructura <etiqueta atributo="mi propiedad"></etiqueta>
+            <p class="parrafo"></p>
+       Existen 2 tipo de Atributos 
+        b.1 Opcional (No es obligatario pero nos puede ser de ayuda para el desarrollador)
+        b.2 Obligatorio (Son atributos que si o si nos obliga la web utilizar)
+            Un ejemplo seria el atributo src de imagen , no se puede colocar una imagen sino definimos el
+            atributo de la ruta (ubicación de la imagen)
+            <img scr="ruta" alt="Mensaje de Accesiblidad"/>
+    c)Encabezado => Nos permiten dar una jerquía a nuestra pagina web
+      Un ejemplo sería un titulo, un subtitulo. 
+      Solo puede existe un solo titulo en la pagina web.
+        Los alimentos es la jerarquia mayor por lo que se utilizaria la etiqueta H1  
+         <h1>Alimentos<h1>
+            Dentro de los alimentos existen varias categorias como frutas, verduras, carnes, por lo que le pertenece a H2
+            <h2>Frutas<h2>
+            Dentro de las frutas existen subcategorias como Mangos, Malones ,Platanos
+                 <h3>Mangos</h3>
+                     Dentro de los mangos existen subcategorias mas pequeñas como el tipo de mango con la etique h4 
+                            <h4>Mango Papaya </h4>
+                            <h4>Mango Edward </h4>
+                 <h3>Platanos</h3> 
+                             <h4>Platano Isla </h4>
+                             <h4>Platano Sede </h4>  
+            <h2>Verduras</h2>
+                <h3>Coliflor</h3>
+                <h3>Espinaca</h3>
+                <h3>Lechuga</h3>
+            <h2>Carnes </h3>
+                <h3>Pollo</h3>
+                <h3>Res</h3>
+                <h3>Cerdo</h3>
+ 
